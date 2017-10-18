@@ -24,8 +24,8 @@
     <nav class="navbar navbar-static-top" id="navvy">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <div class="navbar-header">                                                                 
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria- controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -44,6 +44,53 @@
             </div>
         </div>
     </nav>
+
+    <!--Trailer section-->
+    <div class="jumbotron mainSec"> <!--2 classes, jumbotron and mainSec-->
+        <h1 class="container" id="trailer"><iframe width="560" height="315" src="https://www.youtube.com/embed/AURVxvIZrmU" frameborder="0" allowfullscreen></iframe></h1>
+    </div>
+
+    <!--Episodes preview section-->
+    <!--col-sm-6 = 2 thumbnails per row on sm (small) device (6*2 = 12). col-md-4 = 3 thumbnails/row on md(medium) device-->
+    <!-- if a larger size is used without having properties specified (eg lg/xl) default to the highest size accounted for ***(lg goes
+        to medium, but if smaller than medium would go to small if small is specified. if no smaller is listed, medium(example) would
+        default to 12 actually, instead of sm/xs)*** -->
+    <!-- top to bottom, left to right -->
+
+
+    <div class="row container previewThem">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="Content/images/ep1.png" alt="Episode One Preview Image">
+                <div class="caption">
+                    <h3>Episode 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices purus sed sem sagittis bibendum. Pellentesque volutpat nulla vitae dui scelerisque, vitae porttitor lectus imperdiet. Sed porttitor est eget feugiat porta. Pellentesque ac aliquam est. Suspendisse libero enim, ultrices in quam sed, fermentum cursus tellus. Phasellus augue sapien, rhoncus et tempus id, mollis a eros. Praesent mi orci, porttitor eget ante volutpat, pharetra vehicula libero. Nullam ac velit semper, auctor dolor non, tincidunt augue. Etiam laoreet erat vel pretium gravida. Sed at metus justo. Aenean efficitur justo vel imperdiet ultricies. Duis aliquet imperdiet pellentesque.</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Play Now</a> </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="Content/images/ep2.jpg" alt="Episode Two Preview Image">
+                <div class="caption">
+                    <h3>Episode 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices purus sed sem sagittis bibendum. Pellentesque volutpat nulla vitae dui scelerisque, vitae porttitor lectus imperdiet. Sed porttitor est eget feugiat porta. Pellentesque ac aliquam est. Suspendisse libero enim, ultrices in quam sed, fermentum cursus tellus. Phasellus augue sapien, rhoncus et tempus id, mollis a eros. Praesent mi orci, porttitor eget ante volutpat, pharetra vehicula libero. Nullam ac velit semper, auctor dolor non, tincidunt augue. Etiam laoreet erat vel pretium gravida. Sed at metus justo. Aenean efficitur justo vel imperdiet ultricies. Duis aliquet imperdiet pellentesque.</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Play Now</a> </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="Content/images/ep3.jpg" alt="Episode Three Preview Image">
+                <div class="caption">
+                    <h3>Episode 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices purus sed sem sagittis bibendum. Pellentesque volutpat nulla vitae dui scelerisque, vitae porttitor lectus imperdiet. Sed porttitor est eget feugiat porta. Pellentesque ac aliquam est. Suspendisse libero enim, ultrices in quam sed, fermentum cursus tellus. Phasellus augue sapien, rhoncus et tempus id, mollis a eros. Praesent mi orci, porttitor eget ante volutpat, pharetra vehicula libero. Nullam ac velit semper, auctor dolor non, tincidunt augue. Etiam laoreet erat vel pretium gravida. Sed at metus justo. Aenean efficitur justo vel imperdiet ultricies. Duis aliquet imperdiet pellentesque.</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Play Now</a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </body>
 </html>
